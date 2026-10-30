@@ -12,7 +12,7 @@
 ## 📸 Dashboard Preview
 ![Healthcare Dashboard](dashboard_preview.png)
 
-🎥 Demo video: [add your LinkedIn or YouTube link here]
+🎥 Demo video: https://www.linkedin.com/in/rahul-diwakar-645197205
 
 ## 📊 What the Dashboard Shows
 - **Survival vs mortality** for the full dataset and for any selected patient group
