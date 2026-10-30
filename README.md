@@ -10,7 +10,7 @@
 - Overall survival rate in the dataset: **71.6%**.
 
 ## 📸 Dashboard Preview
-![Healthcare Dashboard](dashboard_preview.png)
+![Healthcare Dashboard](dashboard_preview(3).png)
 
 🎥 Demo video: https://www.linkedin.com/in/rahul-diwakar-645197205
 
