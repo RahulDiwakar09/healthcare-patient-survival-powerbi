@@ -1,0 +1,18 @@
+-- Healthcare Patient Survival & Risk Analytics: DAX Measures
+
+Total Patients = DISTINCTCOUNT(Patients[Patient_ID])
+
+Survivors =
+CALCULATE([Total Patients], Patients[Survival_Status] = "Survived")
+
+Deaths =
+CALCULATE([Total Patients], Patients[Survival_Status] = "Deceased")
+
+Survival Rate = DIVIDE([Survivors], [Total Patients])
+
+High Risk Patients =
+CALCULATE([Total Patients], Patients[Risk_Category] IN {"High Risk", "Very High Risk"})
+
+Average Hospital Stay = AVERAGE(Patients[Hospital_Stay_Days])
+
+Average Age = AVERAGE(Patients[Age])
